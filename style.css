@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Helvetica World", Arial, sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#title {
+    font-size: 48px;
+    font-family: "Helvetica World", Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+#task-text {
+    font-size: 36px;
+    font-family: "Helvetica World", Arial, sans-serif;
+    margin: 20px 0;
+}
+
+#generate-button {
+    font-size: 24px;
+    font-family: "Helvetica World", Arial, sans-serif;
+    background-color: white;
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px; /* Rounded corners */
+    margin: 20px 0;
+}
+
+#generate-button:hover {
+    background-color: black;
+    color: white;
+}
+
+#bottom-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 10px;
+}
